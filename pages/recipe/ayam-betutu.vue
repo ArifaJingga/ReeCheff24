@@ -7,7 +7,7 @@
   
       <main>
         <div class="recipe-content">
-          <img src="/assets/ayam betutu.jpg" alt="Ayam Betutu" class="recipe-image">
+          <img src="/assets/ayam betutu.jpeg" alt="Ayam Betutu" class="recipe-image">
           <section>
             <h2>Bahan-bahan</h2>
             <ul>
