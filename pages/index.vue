@@ -167,16 +167,18 @@ h2 {
   object-fit: cover;
 }
 
-recipe-card h3 {
+.recipe-card h3 {
   font-size: 1.5em;
   color: #333;
   margin: 10px 0;
+  text-decoration: none; /* Remove underline */
 }
 
 .recipe-card p {
   font-size: 1em;
   color: #777;
   margin: 0 10px 10px;
+  text-decoration: none; /* Remove underline */
 }
 
 .recipe-card:hover {
