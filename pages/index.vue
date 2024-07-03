@@ -24,7 +24,7 @@
             <h3>Ketoprak</h3>
             <p>Ketoprak adalah makanan dari Jawa Barat.</p>
           </nuxt-link>
-          <nuxt-link to="/recipe/ayam betutu" class="recipe-card">
+          <nuxt-link to="/recipe/ayam-betutu" class="recipe-card">
             <img src="/assets/ayam betutu.jpeg" alt="Ayam Betutu">
             <h3>Ayam Betutu</h3>
             <p>Ayam betutu adalah makanan khas Bali yang bercita rasa tinggi.</p>
