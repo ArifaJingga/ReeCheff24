@@ -8,8 +8,8 @@
       <label for="asal">Asal:</label>
       <input type="text" id="asal" v-model="asal" required>
 
-      <label for="imageUrl">URL Gambar:</label>
-      <input type="text" id="imageUrl" v-model="imageUrl" required>
+      <label for="image">Gambar:</label>
+      <input type="file" id="image" @change="onFileChange" required>
 
       <label for="kategori">Kategori:</label>
       <input type="text" id="kategori" v-model="kategori" required>
@@ -20,7 +20,7 @@
       <label for="steps">Langkah-langkah (pisahkan dengan koma):</label>
       <textarea id="steps" v-model="steps" required></textarea>
 
-      <button type="submit">Unggah Resep</button>
+      <button class="btn" type="submit">Unggah Resep</button>
     </form>
   </div>
 </template>
@@ -106,7 +106,7 @@ input, textarea {
   font-size: 16px;
 }
 
-button {
+.btn {
   margin-top: 20px;
   padding: 10px 20px;
   background-color: #ff6600;
@@ -117,7 +117,7 @@ button {
   transition: background-color 0.3s;
 }
 
-button:hover {
+.btn:hover {
   background-color: #cc5200;
 }
 </style>
